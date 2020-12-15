@@ -25,6 +25,7 @@
     <None Include="Shaders\modelLoading.vs" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Model.h" />
   </ItemGroup>
