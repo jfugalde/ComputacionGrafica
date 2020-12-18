@@ -92,7 +92,7 @@ int main( )
     Shader shader( "Shaders/modelLoading.vs", "Shaders/modelLoading.frag" );
     
     // Load models
-    Model ourModel1((char*)"textures/Van.obj");
+    Model ourModel1((char*)"textures/Casa/van.obj");
     Model ourModel2((char*)"textures/Sky/sky_sphere.obj");
     //Model ourModel3((char*)"Models/Fishes/TropicalFish03.obj");
     //Model ourModel4((char*)"Models/Fishes/TropicalFish04.obj");
