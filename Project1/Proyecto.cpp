@@ -139,17 +139,30 @@ int main( )
         // Draw the loaded model
         view = camera.GetViewMatrix();
         glm::mat4 model(1);
+        glm::mat4 modelTemp = glm::mat4(1.0f); //Temp
+        glm::mat4 modelTemp2 = glm::mat4(1.0f);
+        glm::mat4 modelTemp3 = glm::mat4(1.0f);
+        glm::mat4 modelTemp4 = glm::mat4(1.0f);
         model = glm::translate( model, glm::vec3( 0.0f, -1.75f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
         model = glm::scale( model, glm::vec3( 0.5f, 0.5f, 0.5f ) );	// It's a bit too big for our scene, so scale it down
 		
 		glUniformMatrix4fv( glGetUniformLocation( shader.Program, "model" ), 1, GL_FALSE, glm::value_ptr( model ) );
 	       Mesa.Draw(shader);
+
+           model = glm::rotate(model, glm::radians(rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
+           modelTemp = model = glm::translate(model, glm::vec3(0.0f, 1.75f, 0.0f));
+           glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
            cuarto.Draw(shader);
+
+           model = glm::rotate(model, glm::radians(rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
+           modelTemp = model = glm::translate(model, glm::vec3(0.0f, 1.75f, 0.0f));
+           glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
            tetera.Draw(shader);
 
 
            view = camera.GetViewMatrix();
             model = glm::rotate(model, glm::radians(rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
+            modelTemp = model = glm::translate(model, glm::vec3(0.0f, 1.75f, 0.0f));
             glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             ventana1.Draw(shader);
 
