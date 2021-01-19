@@ -96,14 +96,14 @@ int main( )
     Shader shader( "Shaders/modelLoading.vs", "Shaders/modelLoading.frag" );
     
     /* Load models*/
-    Model ourModel1((char*)"textures/cuarto/mesa.obj");
-    Model ourModel2((char*)"textures/cuarto/tetera.obj");
-    Model ourModel3((char*)"textures/cuarto/ventana1.obj");
-    Model ourModel4((char*)"textures/cuarto/ventana2.obj");
-    Model ourModel6((char*)"textures/cuarto/cuarto.obj");
-    Model ourModel7((char*)"textures/cuarto/Door1.obj");
-    Model ourModel8((char*)"textures/cuarto/Door2.obj");
-    Model ourModel5((char*)"textures/Sky/sky_sphere.obj");
+    Model Mesa((char*)"textures/cuarto/mesa.obj");
+    Model tetera((char*)"textures/cuarto/tetera.obj");
+    Model ventana1((char*)"textures/cuarto/ventana1.obj");
+    Model ventana2((char*)"textures/cuarto/ventana2.obj");
+    Model cuarto((char*)"textures/cuarto/cuarto.obj");
+    Model Door1((char*)"textures/cuarto/Door1.obj");
+    Model Door2((char*)"textures/cuarto/Door2.obj");
+    Model sky((char*)"textures/Sky/sky_sphere.obj");
 
     
 
@@ -143,14 +143,20 @@ int main( )
         model = glm::scale( model, glm::vec3( 0.5f, 0.5f, 0.5f ) );	// It's a bit too big for our scene, so scale it down
 		
 		glUniformMatrix4fv( glGetUniformLocation( shader.Program, "model" ), 1, GL_FALSE, glm::value_ptr( model ) );
-	
+	       Mesa.Draw(shader);
+           cuarto.Draw(shader);
+           tetera.Draw(shader);
 
-            ourModel1.Draw(shader);
-            
-            ourModel3.Draw(shader);
-            ourModel4.Draw(shader);
-            ourModel5.Draw(shader);
-            ourModel6.Draw(shader);
+
+           view = camera.GetViewMatrix();
+            model = glm::rotate(model, glm::radians(rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
+            glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            ventana1.Draw(shader);
+
+            ventana2.Draw(shader);
+            Door1.Draw(shader);
+            Door2.Draw(shader);
+            sky.Draw(shader);
             
 
         glfwSwapBuffers( window );
@@ -194,6 +200,12 @@ void DoMovement( )
         printf("%i", cat);
         cat -= 1;
         Sleep(100);
+    }
+    if (keys[GLFW_KEY_2])
+    {
+        if (rot_vent < 80.0f)
+            rot_vent += 1.0f;
+
     }
 }
 
