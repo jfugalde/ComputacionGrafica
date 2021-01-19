@@ -91,12 +91,11 @@ int main( )
     // Setup and compile our shaders
     Shader shader( "Shaders/modelLoading.vs", "Shaders/modelLoading.frag" );
     
-    // Load models
-    Model ourModel1((char*)"textures/texturas/mesa.obj");
-    Model ourModel2((char*)"textures/texturas/tetera.obj");
-    Model ourModel3((char*)"textures/texturas/ventana1.obj");
-    Model ourModel4((char*)"textures/texturas/ventana2.obj");
-    Model ourModel6((char*)"textures/texturas/cuarto.obj");
+    /* Load models*/
+    Model ourModel1((char*)"textures/cuarto/mesa.obj");
+    Model ourModel3((char*)"textures/cuarto/ventana1.obj");
+    Model ourModel4((char*)"textures/cuarto/ventana2.obj");
+    Model ourModel6((char*)"textures/cuarto/cuarto.obj");
     Model ourModel5((char*)"textures/Sky/sky_sphere.obj");
 
     
@@ -130,14 +129,14 @@ int main( )
         
         // Draw the loaded model
         glm::mat4 model(1);
-        model = glm::translate( model, glm::vec3( 0.0f, -1.75f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
-        model = glm::scale( model, glm::vec3( 0.5f, 0.5f, 0.5f ) );	// It's a bit too big for our scene, so scale it down
+        //model = glm::translate( model, glm::vec3( 0.0f, -1.75f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
+        //model = glm::scale( model, glm::vec3( 0.5f, 0.5f, 0.5f ) );	// It's a bit too big for our scene, so scale it down
 		
 		glUniformMatrix4fv( glGetUniformLocation( shader.Program, "model" ), 1, GL_FALSE, glm::value_ptr( model ) );
 	
 
             ourModel1.Draw(shader);
-            ourModel2.Draw(shader);
+            
             ourModel3.Draw(shader);
             ourModel4.Draw(shader);
             ourModel5.Draw(shader);

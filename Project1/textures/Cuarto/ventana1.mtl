@@ -1,15 +1,16 @@
-newmtl pasted__pasted__lambert6SG
+newmtl pasted__phongE6SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd win_left.jpg
+map_Kd glass_right.png
 Ni 1.00
-newmtl pasted__phongE1SG
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE8SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd glass_left.png
+map_Kd win_right.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
