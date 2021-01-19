@@ -40,6 +40,10 @@ GLfloat deltaTime = 0.0f;
 GLfloat lastFrame = 0.0f;
 int cat = 0;
 
+//Movimiento
+
+float rot_vent = 0.0f;
+
 int main( )
 {
     // Init GLFW
@@ -130,10 +134,13 @@ int main( )
         glUniformMatrix4fv( glGetUniformLocation( shader.Program, "projection" ), 1, GL_FALSE, glm::value_ptr( projection ) );
         glUniformMatrix4fv( glGetUniformLocation( shader.Program, "view" ), 1, GL_FALSE, glm::value_ptr( view ) );
         
+
+
         // Draw the loaded model
+        view = camera.GetViewMatrix();
         glm::mat4 model(1);
-        //model = glm::translate( model, glm::vec3( 0.0f, -1.75f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
-        //model = glm::scale( model, glm::vec3( 0.5f, 0.5f, 0.5f ) );	// It's a bit too big for our scene, so scale it down
+        model = glm::translate( model, glm::vec3( 0.0f, -1.75f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
+        model = glm::scale( model, glm::vec3( 0.5f, 0.5f, 0.5f ) );	// It's a bit too big for our scene, so scale it down
 		
 		glUniformMatrix4fv( glGetUniformLocation( shader.Program, "model" ), 1, GL_FALSE, glm::value_ptr( model ) );
 	
