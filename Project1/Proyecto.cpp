@@ -92,11 +92,12 @@ int main( )
     Shader shader( "Shaders/modelLoading.vs", "Shaders/modelLoading.frag" );
     
     // Load models
-    Model ourModel1((char*)"textures/Casa/van.obj");
-    Model ourModel2((char*)"textures/Sky/sky_sphere.obj");
-    //Model ourModel3((char*)"Models/Fishes/TropicalFish03.obj");
-    //Model ourModel4((char*)"Models/Fishes/TropicalFish04.obj");
-    //Model ourModel5((char*)"Models/Fishes/TropicalFish06.obj");
+    Model ourModel1((char*)"textures/texturas/mesa.obj");
+    Model ourModel2((char*)"textures/texturas/tetera.obj");
+    Model ourModel3((char*)"textures/texturas/ventana11.obj");
+    Model ourModel4((char*)"textures/texturas/ventana2.obj");
+    Model ourModel5((char*)"textures/Sky/sky_sphere.obj");
+    
 
     // Draw in wireframe
     //glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
@@ -135,6 +136,10 @@ int main( )
 
             ourModel1.Draw(shader);
             ourModel2.Draw(shader);
+            ourModel3.Draw(shader);
+            ourModel4.Draw(shader);
+            ourModel5.Draw(shader);
+            
 
         glfwSwapBuffers( window );
     }
