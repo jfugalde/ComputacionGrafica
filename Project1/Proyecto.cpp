@@ -153,9 +153,21 @@ int main( )
             glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             ventana1.Draw(shader);
 
+            model = glm::rotate(model, glm::radians(-rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
+            glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             ventana2.Draw(shader);
+
+            glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             Door1.Draw(shader);
-            Door2.Draw(shader);
+
+
+            model = glm::translate(model, glm::vec3(0.0f, 0.75f, 0.0f));
+            glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            Door1.Draw(shader);
+
+
+
+            glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             sky.Draw(shader);
             
 
@@ -203,8 +215,14 @@ void DoMovement( )
     }
     if (keys[GLFW_KEY_2])
     {
-        if (rot_vent < 80.0f)
+        if (rot_vent < 15.0f)
             rot_vent += 1.0f;
+
+    }
+    if (keys[GLFW_KEY_3])
+    {
+        if (rot_vent > -15.0f)
+            rot_vent -= 1.0f;
 
     }
 }

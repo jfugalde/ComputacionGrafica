@@ -1,22 +1,4 @@
-newmtl mesa1:pasted__phongE4SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd table.jpg
-Ni 1.00
-Ks 0.50 0.50 0.50
-Ns 0.06
-newmtl mesa2:pasted__phongE4SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd table.jpg
-Ni 1.00
-Ks 0.50 0.50 0.50
-Ns 0.06
-newmtl pasted__pasted__pasted__phongE12SG1
+newmtl pasted__pasted__pasted__pasted__pasted__phongE12SG1
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -24,7 +6,7 @@ Tf 1.00 1.00 1.00
 map_Kd doors1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
-newmtl pasted__pasted__phongE12SG
+newmtl pasted__pasted__pasted__pasted__phongE12SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -32,23 +14,7 @@ Tf 1.00 1.00 1.00
 map_Kd doors1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
-newmtl pasted__pasted__phongE12SG2
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd doors1.jpg
-Ni 1.00
-Ks 0.50 0.50 0.50
-newmtl pasted__pasted__phongE12SG3
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd doors1.jpg
-Ni 1.00
-Ks 0.50 0.50 0.50
-newmtl phongE1SG
+newmtl pasted__pasted__phongE1SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -56,7 +22,7 @@ Tf 1.00 1.00 1.00
 map_Kd bad1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
-newmtl phongE2SG
+newmtl pasted__pasted__phongE2SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -64,47 +30,7 @@ Tf 1.00 1.00 1.00
 map_Kd belye.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
-newmtl phongE3SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd chair1.jpg
-Ni 1.00
-Ks 0.50 0.50 0.50
-newmtl phongE5SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd glass_left.png
-Ni 1.00
-Ks 0.50 0.50 0.50
-newmtl phongE6SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd glass_right.png
-Ni 1.00
-Ks 0.50 0.50 0.50
-newmtl phongE7SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd win_left.jpg
-Ni 1.00
-Ks 0.50 0.50 0.50
-newmtl phongE8SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd win_right.jpg
-Ni 1.00
-Ks 0.50 0.50 0.50
-newmtl phongE9SG
+newmtl pasted__pasted__phongE9SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -112,7 +38,7 @@ Tf 1.00 1.00 1.00
 map_Kd rest.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
-newmtl phongE11SG
+newmtl pasted__pasted__phongE11SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -120,7 +46,7 @@ Tf 1.00 1.00 1.00
 map_Kd veshalka.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
-newmtl phongE13SG
+newmtl pasted__pasted__phongE13SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -128,7 +54,7 @@ Tf 1.00 1.00 1.00
 map_Kd wall_staff.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
-newmtl phongE14SG
+newmtl pasted__pasted__phongE14SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00

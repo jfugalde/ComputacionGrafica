@@ -8886,8 +8886,8 @@ vn 0.276312 0.913140 0.299713
 vn 0.654613 0.750515 0.090602
 vn 0.650218 0.754120 0.092302
 s off
-g Enter_a_title:veshalka env home
-usemtl phongE11SG
+g Enter_a_title7:veshalka pasted__pasted__env pasted__pasted__home pasted__casa group
+usemtl pasted__pasted__phongE11SG
 f 1/1/1 2/2/2 3/3/3
 f 3/3/4 4/4/5 1/1/6
 f 5/5/7 6/6/8 7/7/9
@@ -12464,8 +12464,8 @@ vn -0.997205 -0.068900 -0.028900
 vn -0.975201 -0.192900 0.108500
 vn -0.605299 -0.406799 -0.684199
 s off
-g env home Enter_a_title:bad_for
-usemtl phongE2SG
+g pasted__pasted__env pasted__pasted__home pasted__casa group Enter_a_title7:bad_for
+usemtl pasted__pasted__phongE2SG
 f 1109/1596/6181 1110/1597/6182 1111/1598/6183
 f 1111/1598/6184 1112/1599/6185 1109/1596/6186
 f 1113/1600/6187 1114/1601/6188 1115/1602/6189
@@ -18828,8 +18828,8 @@ vn -1.000000 0.000000 -0.000000
 vn -1.000000 0.000000 -0.000000
 vn -1.000000 0.000000 -0.000000
 s off
-g env home Enter_a_title:bad
-usemtl phongE1SG
+g pasted__pasted__env pasted__pasted__home pasted__casa group Enter_a_title7:bad
+usemtl pasted__pasted__phongE1SG
 f 1316/1835/7249 1317/1836/7250 1318/1837/7251
 f 1318/1837/7252 1319/1838/7253 1316/1835/7254
 f 1320/1839/7255 1321/1840/7256 1322/1841/7257
@@ -20560,8 +20560,8 @@ vn -0.260308 -0.964230 -0.050002
 vn -0.260308 -0.964230 -0.050002
 vn -0.260308 -0.964230 -0.050002
 s off
-g env home Enter_a_title:rest
-usemtl phongE9SG
+g pasted__pasted__env pasted__pasted__home pasted__casa group Enter_a_title7:rest
+usemtl pasted__pasted__phongE9SG
 f 2040/2891/11473 2041/2892/11474 2042/2893/11475
 f 2042/2893/11476 2043/2894/11477 2040/2891/11478
 f 2044/2895/11479 2045/2896/11480 2046/2897/11481
@@ -24273,8 +24273,8 @@ vn 0.067803 -0.993241 -0.094204
 vn 0.067803 -0.993241 -0.094204
 vn 0.067803 -0.993241 -0.094204
 s off
-g env home Enter_a_title:wall_staff
-usemtl phongE13SG
+g pasted__pasted__env pasted__pasted__home pasted__casa group Enter_a_title7:wall_staff
+usemtl pasted__pasted__phongE13SG
 f 2104/2955/11665 2105/2956/11666 2106/2957/11667
 f 2106/2957/11668 2107/2958/11669 2104/2955/11670
 f 2107/2959/11671 2106/2960/11672 2108/2961/11673
@@ -25495,8 +25495,8 @@ vn 0.000000 1.000000 -0.000000
 vn 0.000000 1.000000 -0.000000
 vn 0.000000 1.000000 0.000000
 s 1
-g env home Enter_a_title:walls
-usemtl phongE14SG
+g pasted__pasted__env pasted__pasted__home pasted__casa group Enter_a_title7:walls
+usemtl pasted__pasted__phongE14SG
 f 2552/3806/14011 2553/3807/14012 2554/3808/14013
 f 2554/3808/14013 2555/3809/14014 2552/3806/14011
 f 2556/3810/14015 2557/3811/14016 2558/3812/14017
@@ -25801,8 +25801,8 @@ vn -0.991277 -0.131797 0.000000
 vn -0.991277 -0.131797 0.000000
 vn -0.991277 -0.131797 0.000000
 s off
-g home pasted__polySurface2 Enter_a_title2:Doors pasted__group2 group
-usemtl pasted__pasted__phongE12SG
+g pasted__pasted__home pasted__casa group pasted__pasted__pasted__polySurface2 Enter_a_title8:Doors pasted__pasted__pasted__group2 pasted__pasted__group
+usemtl pasted__pasted__pasted__pasted__phongE12SG
 f 2661/4014/14130 2662/4015/14131 2663/4016/14132
 f 2663/4016/14133 2664/4017/14134 2661/4014/14135
 f 2665/4018/14136 2661/4014/14137 2664/4017/14138
@@ -25948,8 +25948,8 @@ vn 0.991277 -0.131797 0.000000
 vn 0.991277 -0.131797 0.000000
 vn 0.991277 -0.131797 0.000000
 s off
-g home pasted__pasted__polySurface4 Enter_a_title4:Doors pasted__pasted__group2 pasted__group1 group2
-usemtl pasted__pasted__pasted__phongE12SG1
+g pasted__pasted__home pasted__casa group pasted__pasted__pasted__pasted__polySurface4 Enter_a_title9:Doors pasted__pasted__pasted__pasted__group2 pasted__pasted__pasted__group1 pasted__pasted__group2
+usemtl pasted__pasted__pasted__pasted__pasted__phongE12SG1
 f 2681/4048/14202 2682/4049/14203 2683/4050/14204
 f 2683/4050/14205 2684/4051/14206 2681/4048/14207
 f 2685/4052/14208 2686/4053/14209 2682/4049/14210
