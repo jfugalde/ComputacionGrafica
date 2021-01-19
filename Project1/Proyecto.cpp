@@ -93,9 +93,12 @@ int main( )
     
     /* Load models*/
     Model ourModel1((char*)"textures/cuarto/mesa.obj");
+    Model ourModel2((char*)"textures/cuarto/tetera.obj");
     Model ourModel3((char*)"textures/cuarto/ventana1.obj");
     Model ourModel4((char*)"textures/cuarto/ventana2.obj");
     Model ourModel6((char*)"textures/cuarto/cuarto.obj");
+    Model ourModel7((char*)"textures/cuarto/Door1.obj");
+    Model ourModel8((char*)"textures/cuarto/Door2.obj");
     Model ourModel5((char*)"textures/Sky/sky_sphere.obj");
 
     
