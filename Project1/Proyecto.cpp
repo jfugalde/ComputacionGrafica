@@ -94,9 +94,11 @@ int main( )
     // Load models
     Model ourModel1((char*)"textures/texturas/mesa.obj");
     Model ourModel2((char*)"textures/texturas/tetera.obj");
-    Model ourModel3((char*)"textures/texturas/ventana11.obj");
+    Model ourModel3((char*)"textures/texturas/ventana1.obj");
     Model ourModel4((char*)"textures/texturas/ventana2.obj");
+    Model ourModel6((char*)"textures/texturas/cuarto.obj");
     Model ourModel5((char*)"textures/Sky/sky_sphere.obj");
+
     
 
     // Draw in wireframe
@@ -139,6 +141,7 @@ int main( )
             ourModel3.Draw(shader);
             ourModel4.Draw(shader);
             ourModel5.Draw(shader);
+            ourModel6.Draw(shader);
             
 
         glfwSwapBuffers( window );
