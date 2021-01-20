@@ -42,7 +42,7 @@ int cat = 0;
 
 //Movimiento
 
-float rot_vent = 0.0f;
+float rot_vent,rot_p, rot_v = 0.0f;
 
 int main( )
 {
@@ -96,13 +96,12 @@ int main( )
     Shader shader( "Shaders/modelLoading.vs", "Shaders/modelLoading.frag" );
     
     /* Load models*/
-    Model Mesa((char*)"textures/cuarto/mesa.obj");
+    
     Model tetera((char*)"textures/cuarto/tetera.obj");
-    Model ventana1((char*)"textures/cuarto/ventana1.obj");
-    Model ventana2((char*)"textures/cuarto/ventana2.obj");
+    Model ventana1((char*)"textures/cuarto/Vent_der.obj");
+    Model ventana2((char*)"textures/cuarto/Vent_izq.obj");
     Model cuarto((char*)"textures/cuarto/cuarto.obj");
     Model Door1((char*)"textures/cuarto/Door1.obj");
-    Model Door2((char*)"textures/cuarto/Door2.obj");
     Model sky((char*)"textures/Sky/sky_sphere.obj");
 
     
@@ -137,50 +136,45 @@ int main( )
 
 
         // Draw the loaded model
-        view = camera.GetViewMatrix();
-        glm::mat4 model(1);
-        glm::mat4 modelTemp = glm::mat4(1.0f); //Temp
-        glm::mat4 modelTemp2 = glm::mat4(1.0f);
-        glm::mat4 modelTemp3 = glm::mat4(1.0f);
-        glm::mat4 modelTemp4 = glm::mat4(1.0f);
+            view = camera.GetViewMatrix();
+            glm::mat4 model(1);
         
-        model = glm::translate( model, glm::vec3( 0.0f, -1.75f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
-        model = glm::scale( model, glm::vec3( 0.5f, 0.5f, 0.5f ) );	// It's a bit too big for our scene, so scale it down
+            model = glm::translate( model, glm::vec3( 0.0f, -1.75f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
+            model = glm::scale( model, glm::vec3( 0.5f, 0.5f, 0.5f ) );	// It's a bit too big for our scene, so scale it down
 		
-		glUniformMatrix4fv( glGetUniformLocation( shader.Program, "model" ), 1, GL_FALSE, glm::value_ptr( model ) );
+		    glUniformMatrix4fv( glGetUniformLocation( shader.Program, "model" ), 1, GL_FALSE, glm::value_ptr( model ) );
            cuarto.Draw(shader);
        
 
-           model = glm::rotate(model, glm::radians(rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
-           modelTemp = model = glm::translate(model, glm::vec3(0.0f, 1.75f, 0.0f));
+           model = glm::translate(model, glm::vec3(-0.2f, 0.0f, 0.0f));
            glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
            tetera.Draw(shader);
 
 
-           view = camera.GetViewMatrix();
+           //Animacion y colocacion ventanas
+            view = camera.GetViewMatrix();
+            model = glm::translate(model, glm::vec3(0, 0.9f, 0.3f));
             model = glm::rotate(model, glm::radians(rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
-            modelTemp = model = glm::translate(model, glm::vec3(0.0f, 1.75f, 0.0f));
             glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             ventana1.Draw(shader);
-
+            
+            view = camera.GetViewMatrix();
+            model = glm::translate(model, glm::vec3(0, -0.9f, 0.3f));
             model = glm::rotate(model, glm::radians(-rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
             glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             ventana2.Draw(shader);
 
-            model = glm::rotate(model, glm::radians(rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
-            modelTemp = model = glm::translate(model, glm::vec3(0.0f, 1.75f, 0.0f));
+            //animacion y colocacion de la puerta frontal 
+            model = glm::translate(model, glm::vec3(3, 0.0f, 0.3f));
+            model = glm::rotate(model, glm::radians(rot_p), glm::vec3(0.0f, 1.0f, 0.0f));
             glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             Door1.Draw(shader);
 
-            model = glm::rotate(model, glm::radians(rot_vent), glm::vec3(0.0f, 1.0f, 0.0f));
-            modelTemp = model = glm::translate(model, glm::vec3(0.0f, 1.75f, 0.0f));
-            glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-            Door1.Draw(shader);
 
 
             model = glm::mat4(1.0f);
             glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-            sky.Draw(shader);
+            //sky.Draw(shader);
             
 
         glfwSwapBuffers( window );
@@ -227,14 +221,38 @@ void DoMovement( )
     }
     if (keys[GLFW_KEY_2])
     {
-        if (rot_vent < 15.0f)
+        if (rot_vent < 90.0f)
             rot_vent += 1.0f;
 
     }
     if (keys[GLFW_KEY_3])
     {
-        if (rot_vent > -15.0f)
+        if (rot_vent > -90.0f)
             rot_vent -= 1.0f;
+
+    }
+    if (keys[GLFW_KEY_4])
+    {
+        if (rot_p < 80.0f)
+            rot_p += 1.0f;
+
+    }
+    if (keys[GLFW_KEY_5])
+    {
+        if (rot_p > -80.0f)
+            rot_p -= 1.0f;
+
+    }
+    if (keys[GLFW_KEY_6])
+    {
+        if (rot_v < 15.0f)
+            rot_v += 1.0f;
+
+    }
+    if (keys[GLFW_KEY_7])
+    {
+        if (rot_v > -15.0f)
+            rot_v -= 1.0f;
 
     }
 }
