@@ -1,0 +1,291 @@
+newmtl abandoned_cottage:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_doorknob_BaseColor.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
+newmtl abandoned_cottage:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_brickwall_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.81 0.81 0.81
+map_Kd abandoned_cottage_boarded_windows_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_doorbeams_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_window_conc_surround_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_main_roof_tiles_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_lower_roof_tiles_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_door_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_underneathwindow_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_hori_beams_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_window_fram_wood_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_underneath_lowerroof_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage:lambert15SG
+illum 4
+Kd 0.44 0.13 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl abandoned_cottage:lambert16SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_flat_parts_roof_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage1:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_main_roof_tiles_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage1:lambert15SG
+illum 4
+Kd 0.44 0.13 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl abandoned_cottage3:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_main_roof_tiles_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage3:lambert15SG
+illum 4
+Kd 0.44 0.13 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl abandoned_cottage4:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd abandoned_cottage_main_roof_tiles_BaseColor.png
+Ni 1.00
+newmtl abandoned_cottage4:lambert15SG
+illum 4
+Kd 0.44 0.13 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl mesa1:pasted__phongE4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd table.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
+newmtl mesa2:pasted__phongE4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd table.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
+newmtl pasted__pasted__pasted__pasted__pasted__phongE12SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd doors1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__pasted__pasted__phongE12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd doors1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__pasted__phongE12SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd doors1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__pasted__phongE12SG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd doors1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__phongE1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bad1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__phongE2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd belye.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__phongE9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd rest.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__phongE11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd veshalka.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__phongE13SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall_staff.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__phongE14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd chair1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd glass_left.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd glass_right.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd win_left.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd win_right.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd table.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl sky_sphere:initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd CasualDay4K.hdr
+Ni 1.00
