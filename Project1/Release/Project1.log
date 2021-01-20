@@ -13,8 +13,8 @@ LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; u
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-soil2-debug.lib(etc1_utils.obj) : warning LNK4099: PDB '' was not found with 'soil2-debug.lib(etc1_utils.obj)' or at ''; linking object as if no debug info
+soil2-debug.lib(etc1_utils.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(etc1_utils.obj)' or at 'D:\User\Progreamming\UNAM\CG\Proyecto\ComputacionGrafica\Release\soil2-debug.pdb'; linking object as if no debug info
 soil2-debug.lib(image_DXT.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_DXT.obj)' or at 'D:\User\Progreamming\UNAM\CG\Proyecto\ComputacionGrafica\Release\soil2-debug.pdb'; linking object as if no debug info
-soil2-debug.lib(image_helper.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_helper.obj)' or at 'D:\User\Progreamming\UNAM\CG\Proyecto\ComputacionGrafica\Release\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(image_helper.obj) : warning LNK4099: PDB '' was not found with 'soil2-debug.lib(image_helper.obj)' or at ''; linking object as if no debug info
 soil2-debug.lib(SOIL2.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(SOIL2.obj)' or at 'D:\User\Progreamming\UNAM\CG\Proyecto\ComputacionGrafica\Release\soil2-debug.pdb'; linking object as if no debug info
   Project1.vcxproj -> D:\User\Progreamming\UNAM\CG\Proyecto\ComputacionGrafica\Release\Project1.exe
