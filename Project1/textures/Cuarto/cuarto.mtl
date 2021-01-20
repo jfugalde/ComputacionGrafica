@@ -136,14 +136,48 @@ Kd 0.44 0.13 0.02
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ground_grass_3264_4062_Small.jpg
+Ni 1.00
+newmtl mesa1:pasted__phongE4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd table.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
 newmtl mesa2:pasted__phongE4SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd table.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 0.06
+newmtl mount_blend1:Material
+illum 4
+Kd 0.05 0.05 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 96.08
+newmtl mount_blend1:Material_001
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ground_grass_3264_4062_Small.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 96.08
 newmtl pasted__pasted__pasted__pasted__pasted__phongE12SG1
 illum 4
 Kd 0.00 0.00 0.00
@@ -161,6 +195,14 @@ map_Kd doors1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl pasted__pasted__pasted__phongE12SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd doors1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__pasted__phongE12SG3
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -224,6 +266,38 @@ Tf 1.00 1.00 1.00
 map_Kd chair1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
+newmtl pasted__phongE5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd glass_left.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd glass_right.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd win_left.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd win_right.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
 newmtl phongE2SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -232,3 +306,26 @@ Tf 1.00 1.00 1.00
 map_Kd table.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
+newmtl phongE5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ground_grass_3264_4062_Small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ground_grass_3264_4062_Small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl sky_sphere:initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd CasualDay4K.hdr
+Ni 1.00
