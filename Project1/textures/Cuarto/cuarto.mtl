@@ -136,6 +136,12 @@ Kd 0.44 0.13 0.02
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
 newmtl lambert2SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -186,12 +192,36 @@ Tf 1.00 1.00 1.00
 map_Kd doors1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
+newmtl pasted__pasted__pasted__pasted__phongE7SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
 newmtl pasted__pasted__pasted__pasted__phongE12SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd doors1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__pasted__pasted__phongE12SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd doors1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__pasted__phongE7SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl pasted__pasted__pasted__phongE12SG2
@@ -224,6 +254,14 @@ Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd belye.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__phongE7SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl pasted__pasted__phongE9SG
@@ -290,12 +328,35 @@ Tf 1.00 1.00 1.00
 map_Kd win_left.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
+newmtl pasted__phongE7SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE7SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
 newmtl pasted__phongE8SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd win_right.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__phongE17SG
+illum 4
+Kd 0.00 0.86 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl phongE2SG
@@ -320,6 +381,65 @@ Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd ground_grass_3264_4062_Small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE9SG
+illum 4
+Kd 0.03 0.81 0.81
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE11SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE16SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE17SG
+illum 4
+Kd 0.00 0.86 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE18SG
+illum 4
+Kd 0.00 0.49 0.58
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE19SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE20SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wall1.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl sky_sphere:initialShadingGroup
