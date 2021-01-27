@@ -123,14 +123,7 @@ int main()
 
 
 
-	Model cuarto((char*)"textures/cuarto/cuarto.obj");
-
-	// Build and compile our shader program
-
-	//Inicialización de KeyFrames
-
-
-
+	Model cuarto((char*)"textures/Cuarto/cuarto.obj");
 
 	// Set up vertex data (and buffer(s)) and attribute pointers
 	GLfloat vertices[] =
@@ -423,46 +416,13 @@ int main()
 
 
 	//Cargar el cuarto 
-		//view = camera.GetViewMatrix();
+		
+		view = camera.GetViewMatrix();
 		glm::mat4 model(1);
-		tmp = model = glm::translate(model, glm::vec3(0, 0, 0));
 		model = glm::translate(model, glm::vec3(0,0,0));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		cuarto.Draw(lightingShader);
 
-	//cargar la puerta
-		//view = camera.GetViewMatrix();
-		//model = glm::translate(tmp, glm::vec3(-0.5f, 0.0f, -0.1f));
-		//model = glm::rotate(model, glm::radians(rotp), glm::vec3(0.0f, 1.0f, 0.0));
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//Door1.Draw(lightingShader);
-
-
-		////Ventana Izq
-		//view = camera.GetViewMatrix();
-		//model = glm::mat4(1);
-		//model = glm::rotate(model, glm::radians(rotv), glm::vec3(0.0f, 1.0f, 0.0f));
-		//model = glm::translate(model, glm::vec3(-0.75f, 2.5f, 0));
-		//
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//ventana2.Draw(lightingShader);
-
-		////Ventana der
-		//view = camera.GetViewMatrix();
-		//model = glm::mat4(1);
-		//model = glm::rotate(model, glm::radians(rotv), glm::vec3(0.0f, 1.0f, 0.0f));
-		//model = glm::translate(model, glm::vec3(0.75f, 2.5f, 0));
-		//
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//ventana1.Draw(lightingShader);
-
-		////Cabeza
-		//view = camera.GetViewMatrix();
-		//model = glm::mat4(1);
-		//model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 1.0f, 0.0));
-		//model = glm::translate(model, glm::vec3(0.0f, 2.5f, 0));
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//Cabeza.Draw(lightingShader);
 
 
 		glBindVertexArray(0);
